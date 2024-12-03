@@ -1,0 +1,97 @@
+/* General styling for the body and headings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ff8080;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    border: 2px solid #808080; 
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; 
+}
+
+.table thead th {
+    background-color: #ffd7eb;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #808080; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #808080; 
+    padding: 10px;
+}
+
+/* Success and failure status indicators */
+.text-success {
+    font-weight: bold;
+    background-color: #d4edda; 
+    color: #008000; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.text-danger {
+    font-weight: bold;
+    background-color: #f8d7da; 
+    color: #ff0000; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}

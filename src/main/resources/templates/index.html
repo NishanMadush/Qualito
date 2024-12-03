@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+     <body>
+      <div layout:fragment="content">
+        <div class="content-header row">
+          <div class="content-header-left col-md-8 col-12 mb-2 breadcrumb-new">
+            <h3 class="content-header-title mb-0 d-inline-block">Navigation Light</h3>
+            <div class="row breadcrumbs-top d-inline-block">
+              <div class="breadcrumb-wrapper col-12">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="#">Vertical Navigation</a>
+                  </li>
+                  <li class="breadcrumb-item active">Navigation Light
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="content-header-right col-md-4 col-12">
+            <div class="btn-group float-md-right">
+              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-settings mr-1"></i>Action</button>
+              <div class="dropdown-menu arrow"><a class="dropdown-item" href="#"><i class="fa fa-calendar mr-1"></i> Calender</a><a class="dropdown-item" href="#"><i class="fa fa-cart-plus mr-1"></i> Cart</a><a class="dropdown-item" href="#"><i class="fa fa-life-ring mr-1"></i> Support</a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fa fa-cog mr-1"></i> Settings</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-body"><!-- Description -->
+<section id="description" class="card">
+    <div class="card-header">
+        <h4 class="card-title">Description</h4>
+    </div>
+    <div class="card-content">
+        <div class="card-body">
+            <div class="card-text">
+                <p>For light template, Robust Admin provides light color vertical navigation menu options, you can check light color vertical navigation menu on left side.</p>
+            </div>
+            <div class="alert bg-success alert-icon-left mb-2" role="alert">
+                <span class="alert-icon"><i class="fa fa-pencil-square"></i></span>
+                <strong>Experience it!</strong>
+                <p>This page contain light navigation menu options example, check at the left hand side of the page.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Description -->
+<!-- CSS Classes -->
+<section id="css-classes" class="card">
+    <div class="card-header">
+        <h4 class="card-title">CSS Classes</h4>
+        <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                <li><a data-action="close"><i class="ft-x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-content">
+        <div class="card-body">
+            <div class="card-text">
+                <p>This table contains all classes related to the light vertical navigation option.</p>
+                <p>All these options can be set via following classes:</p>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Classes</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><code>.menu-light</code></th>
+                                <td>To create light vertical navigation, you need to add <code>.menu-light</code> class in navigation <code>&lt;div&gt;</code> tag. Refer HTML markup line no 12.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ CSS Classes -->
+<!-- HTML Markup -->
+<section id="html-markup" class="card">
+    <div class="card-header">
+        <h4 class="card-title">HTML Markup</h4>
+        <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                <li><a data-action="close"><i class="ft-x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-content">
+        <div class="card-body">
+            <div class="card-text">
+                <p>This section contains HTML Markup to create light vertical navigation. This markup define where to add css classes to make vertical navigation light.</p>
+                <ul>
+                    <li><span class="text-bold-600">Line no 12:</span> Contain the <code>.menu-light</code> class to set vertical navigation color light.</li>
+                </ul>
+                <pre data-line="12" class="language-markup">
+                  <code class="language-markup">
+                      &lt;!DOCTYPE html&gt;
+                        &lt;html lang="en"&gt;
+                          &lt;head&gt;&lt;/head&gt;
+                          &lt;body data-menu="vertical-menu" class="vertical-layout vertical-menu 2-column menu-expanded"&gt;
+
+                            &lt;!-- fixed-top--&gt;
+                            &lt;nav role="navigation" class="header-navbar navbar-expand-sm navbar navbar-with-menu fixed-top navbar-dark navbar-shadow navbar-border"&gt;
+                                ...
+                            &lt;/nav&gt;
+
+                            &lt;!-- BEGIN Navigation--&gt;
+                            &lt;div class="main-menu menu-light menu-shadow"&gt;
+                                ...
+                            &lt;/div&gt;
+                            &lt;!-- END Navigation--&gt;
+
+                            &lt;!-- BEGIN Content--&gt;
+                            &lt;div class="content app-content"&gt;
+                                &lt;div class="content-wrapper"&gt;
+                                    &lt;!-- content header--&gt;
+                                    &lt;div class="content-header row"&gt;
+                                        ...
+                                    &lt;/div&gt;
+                                    &lt;!-- content header--&gt;
+
+                                    &lt;!-- content body--&gt;
+                                    &lt;div class="content-body"&gt;
+                                        ...
+                                    &lt;/div&gt;
+                                    &lt;!-- content body--&gt;
+
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;!-- END Content--&gt;
+
+                            &lt;!-- START FOOTER DARK--&gt;
+                            &lt;footer class="footer footer-dark"&gt;
+                                ...
+                            &lt;/footer&gt;
+                            &lt;!-- START FOOTER DARK--&gt;
+
+                          &lt;/body&gt;
+                        &lt;/html&gt;
+                  </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ HTML Markup -->
+
+        </div>
+     </body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss.SSS} %-5level [%thread] %logger{36}:%line %X{prefix} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>log/toimik-api.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>log/backup/digiwork.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- keep 30 days' worth of history capped at 3GB total size -->
+            <!--maxFileSize>25MB</maxFileSize-->
+            <maxHistory>14</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss.SSS} %-5level [%thread] %logger{36}:%line %X{prefix} %msg%n</pattern>
+        </encoder>
+    </appender>   
+    <appender name="FILE-DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>log/digiwork-debug.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>log/backup/digiwork-debug.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- keep 30 days' worth of history capped at 3GB total size -->
+            <!--maxFileSize>25MB</maxFileSize-->
+            <maxHistory>14</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss.SSS} %-5level [%thread] %logger{36}:%line %X{prefix} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.thymeleaf.TemplateEngine.CONFIG" level="off"/>
+    <logger name="springfox.documentation" level="off"/>
+    <logger name="org.springframework" level="info"/>
+    <logger name="org.apache.http" level="info"/>
+
+    <logger name="com.ning" level="INFO"/>
+    <logger name="com.qualito" level="debug"/>
+	<logger name="org.hibernate" level="INFO"/>
+
+    <root level="DEBUG">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="FILE-DEBUG"/>
+        <appender-ref ref="stdout"/>
+    </root>
+</configuration>

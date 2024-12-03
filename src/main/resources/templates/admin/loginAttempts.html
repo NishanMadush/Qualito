@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Attempts</title>
+    <link rel="stylesheet" href="../../../../app-assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Login Attempts</h1>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Timestamp</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="attempt : ${loginAttempts}">
+                    <td th:text="${attempt.id}"></td>
+                    <td th:text="${attempt.username}"></td>
+                    <td th:text="${attempt.formattedTimestamp}"></td>
+                    <td>
+                        <span th:if="${attempt.successful}" class="text-success">Success</span>
+                        <span th:if="${!attempt.successful}" class="text-danger">Failure</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

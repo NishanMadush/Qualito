@@ -1,0 +1,731 @@
+02.12.2024 22:10:11.176 DEBUG [background-preinit] org.jboss.logging:152  Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+02.12.2024 22:10:11.184 INFO  [background-preinit] o.h.validator.internal.util.Version:21  HV000001: Hibernate Validator 6.2.5.Final
+02.12.2024 22:10:11.255 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:55  Starting DigiworkApplication using Java 21.0.4 on DESKTOP-KT7OEDS with PID 10404 (F:\Qualito\qualito-spring-auth-template\bin\main started by user in F:\Qualito\qualito-spring-auth-template)
+02.12.2024 22:10:11.259 DEBUG [restartedMain] c.q.digiwork.DigiworkApplication:56  Running with Spring Boot v2.7.7, Spring v5.3.24
+02.12.2024 22:10:11.263 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:631  No active profile set, falling back to 1 default profile: "default"
+02.12.2024 22:10:13.201 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02.12.2024 22:10:13.206 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02.12.2024 22:10:15.591 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 22:10:15.608 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+02.12.2024 22:10:15.791 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.template.TemplateCrudRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 22:10:15.810 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.user.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 22:10:15.912 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 262 ms. Found 0 JDBC repository interfaces.
+02.12.2024 22:10:15.963 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 22:10:15.975 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02.12.2024 22:10:16.142 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.
+02.12.2024 22:10:19.076 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:108  Tomcat initialized with port(s): 8080 (http)
+02.12.2024 22:10:19.109 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Initializing ProtocolHandler ["http-nio-8080"]
+02.12.2024 22:10:19.111 INFO  [restartedMain] o.a.catalina.core.StandardService:173  Starting service [Tomcat]
+02.12.2024 22:10:19.112 INFO  [restartedMain] o.a.catalina.core.StandardEngine:173  Starting Servlet engine: [Apache Tomcat/9.0.70]
+02.12.2024 22:10:19.297 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]:173  Initializing Spring embedded WebApplicationContext
+02.12.2024 22:10:19.298 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:292  Root WebApplicationContext: initialization completed in 6088 ms
+02.12.2024 22:10:19.438 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:971  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ff5142
+02.12.2024 22:10:19.614 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper:31  HHH000204: Processing PersistenceUnitInfo [name: default]
+02.12.2024 22:10:19.750 INFO  [restartedMain] org.hibernate.Version:44  HHH000412: Hibernate ORM core version 5.6.14.Final
+02.12.2024 22:10:20.094 INFO  [restartedMain] o.h.annotations.common.Version:56  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02.12.2024 22:10:20.312 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1103  HikariPool-1 - configuration:
+02.12.2024 22:10:20.317 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  allowPoolSuspension................................false
+02.12.2024 22:10:20.317 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  autoCommit................................true
+02.12.2024 22:10:20.318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  catalog................................none
+02.12.2024 22:10:20.319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionInitSql................................none
+02.12.2024 22:10:20.319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTestQuery................................none
+02.12.2024 22:10:20.322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTimeout................................30000
+02.12.2024 22:10:20.322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSource................................none
+02.12.2024 22:10:20.323 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceClassName................................none
+02.12.2024 22:10:20.323 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceJNDI................................none
+02.12.2024 22:10:20.324 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceProperties................................{password=<masked>}
+02.12.2024 22:10:20.325 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  driverClassName................................"com.mysql.cj.jdbc.Driver"
+02.12.2024 22:10:20.325 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  exceptionOverrideClassName................................none
+02.12.2024 22:10:20.325 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckProperties................................{}
+02.12.2024 22:10:20.326 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckRegistry................................none
+02.12.2024 22:10:20.327 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  idleTimeout................................600000
+02.12.2024 22:10:20.327 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  initializationFailTimeout................................1
+02.12.2024 22:10:20.328 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  isolateInternalQueries................................false
+02.12.2024 22:10:20.328 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  jdbcUrl................................jdbc:mysql://localhost:3303/devonly?createDatabaseIfNotExist=true
+02.12.2024 22:10:20.328 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  keepaliveTime................................0
+02.12.2024 22:10:20.329 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  leakDetectionThreshold................................0
+02.12.2024 22:10:20.329 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maxLifetime................................1800000
+02.12.2024 22:10:20.330 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maximumPoolSize................................10
+02.12.2024 22:10:20.331 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricRegistry................................none
+02.12.2024 22:10:20.332 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricsTrackerFactory................................none
+02.12.2024 22:10:20.333 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  minimumIdle................................10
+02.12.2024 22:10:20.333 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  password................................<masked>
+02.12.2024 22:10:20.334 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  poolName................................"HikariPool-1"
+02.12.2024 22:10:20.335 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  readOnly................................false
+02.12.2024 22:10:20.336 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  registerMbeans................................false
+02.12.2024 22:10:20.337 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  scheduledExecutor................................none
+02.12.2024 22:10:20.338 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  schema................................none
+02.12.2024 22:10:20.339 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  threadFactory................................internal
+02.12.2024 22:10:20.339 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  transactionIsolation................................default
+02.12.2024 22:10:20.340 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  username................................"root"
+02.12.2024 22:10:20.340 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  validationTimeout................................5000
+02.12.2024 22:10:20.341 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:110  HikariPool-1 - Starting...
+02.12.2024 22:10:21.808 DEBUG [restartedMain] com.zaxxer.hikari.pool.HikariPool:565  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@788e542a
+02.12.2024 22:10:21.809 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:123  HikariPool-1 - Start completed.
+02.12.2024 22:10:21.864 INFO  [restartedMain] org.hibernate.dialect.Dialect:175  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02.12.2024 22:10:21.921 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02.12.2024 22:10:22.017 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@667c7da9
+02.12.2024 22:10:22.103 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27417792
+02.12.2024 22:10:22.195 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16acf6b1
+02.12.2024 22:10:22.293 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@476e88dd
+02.12.2024 22:10:22.409 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4320b31a
+02.12.2024 22:10:22.492 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71d269f5
+02.12.2024 22:10:22.603 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1895442e
+02.12.2024 22:10:22.767 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aac0f0b
+02.12.2024 22:10:22.889 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ae78406
+02.12.2024 22:10:22.890 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:10:23.956 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator:52  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02.12.2024 22:10:23.973 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean:437  Initialized JPA EntityManagerFactory for persistence unit 'default'
+02.12.2024 22:10:24.076 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02.12.2024 22:10:25.198 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?error']
+02.12.2024 22:10:25.235 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 22:10:25.237 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 22:10:25.238 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Or [Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]
+02.12.2024 22:10:25.239 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?logout']
+02.12.2024 22:10:25.239 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/login']
+02.12.2024 22:10:25.239 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/vendors/**']
+02.12.2024 22:10:25.240 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/css/**']
+02.12.2024 22:10:25.240 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/js/**']
+02.12.2024 22:10:25.240 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/fonts/**']
+02.12.2024 22:10:25.241 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/images/**']
+02.12.2024 22:10:25.241 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/app-assets/**']
+02.12.2024 22:10:25.241 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [authenticated] for any request
+02.12.2024 22:10:25.259 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain:55  Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24f6a9be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@101d065d, org.springframework.security.web.context.SecurityContextPersistenceFilter@28c8181, org.springframework.security.web.header.HeaderWriterFilter@7c6fa68c, org.springframework.security.web.authentication.logout.LogoutFilter@2e1c44c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b2b10f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@82f60cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@635fb438, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@307c2396, org.springframework.security.web.session.SessionManagementFilter@3e518119, org.springframework.security.web.access.ExceptionTranslationFilter@5a1ce1b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@503e86f9]
+02.12.2024 22:10:25.721 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping:57  Adding welcome page template: index
+02.12.2024 22:10:25.852 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.PagesController:
+	{GET [/empty]}: emptyPage()
+	{GET [/users]}: usersUrl()
+	{GET [/users/edit/{userId}]}: usersPage(Long)
+	{GET [/users/{pageName}]}: usersPage(String)
+	{GET [/about]}: aboutPage()
+	{GET [/]}: homePage()
+	{GET [/login]}: loginPage()
+02.12.2024 22:10:25.876 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.t.TemplateController:
+	{PUT [/api/v1/template]}: update(TemplateEntity)
+	{GET [/api/v1/template/{id}]}: find(Long)
+	{DELETE [/api/v1/template/{id}]}: delete(Long)
+	{POST [/api/v1/template]}: create(TemplateEntity)
+	{GET [/api/v1/template/all]}: findAll()
+02.12.2024 22:10:25.884 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.u.UserController:
+	{GET [/api/v1/users/{id}]}: getUserById(Long)
+	{GET [/api/v1/users]}: getAllUsers()
+	{POST [/api/v1/users]}: createUser(User)
+	{DELETE [/api/v1/users/{id}]}: deleteUser(Long)
+02.12.2024 22:10:25.891 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+02.12.2024 22:10:25.914 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:86  'beanNameHandlerMapping' {}
+02.12.2024 22:10:25.978 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:177  'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [static/], ServletContext [/]]}
+02.12.2024 22:10:27.429 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:59  LiveReload server is running on port 35729
+02.12.2024 22:10:27.463 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Starting ProtocolHandler ["http-nio-8080"]
+02.12.2024 22:10:27.558 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:220  Tomcat started on port(s): 8080 (http) with context path ''
+02.12.2024 22:10:27.645 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:61  Started DigiworkApplication in 18.528 seconds (JVM running for 24.278)
+02.12.2024 22:10:51.945 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:10:51.989 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 22:11:22.010 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:11:22.030 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 22:11:52.677 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:11:52.912 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 22:15:23.086 DEBUG [background-preinit] org.jboss.logging:152  Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+02.12.2024 22:15:23.095 INFO  [background-preinit] o.h.validator.internal.util.Version:21  HV000001: Hibernate Validator 6.2.5.Final
+02.12.2024 22:15:23.095 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:55  Starting DigiworkApplication using Java 21.0.4 on DESKTOP-KT7OEDS with PID 10320 (F:\Qualito\qualito-spring-auth-template\bin\main started by user in F:\Qualito\qualito-spring-auth-template)
+02.12.2024 22:15:23.100 DEBUG [restartedMain] c.q.digiwork.DigiworkApplication:56  Running with Spring Boot v2.7.7, Spring v5.3.24
+02.12.2024 22:15:23.101 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:631  No active profile set, falling back to 1 default profile: "default"
+02.12.2024 22:15:23.769 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02.12.2024 22:15:23.774 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02.12.2024 22:15:25.446 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 22:15:25.457 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+02.12.2024 22:15:25.547 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.template.TemplateCrudRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 22:15:25.553 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.user.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 22:15:25.556 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 75 ms. Found 0 JDBC repository interfaces.
+02.12.2024 22:15:25.588 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 22:15:25.592 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02.12.2024 22:15:25.680 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+02.12.2024 22:15:29.078 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:108  Tomcat initialized with port(s): 8080 (http)
+02.12.2024 22:15:29.112 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Initializing ProtocolHandler ["http-nio-8080"]
+02.12.2024 22:15:29.113 INFO  [restartedMain] o.a.catalina.core.StandardService:173  Starting service [Tomcat]
+02.12.2024 22:15:29.114 INFO  [restartedMain] o.a.catalina.core.StandardEngine:173  Starting Servlet engine: [Apache Tomcat/9.0.70]
+02.12.2024 22:15:29.364 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]:173  Initializing Spring embedded WebApplicationContext
+02.12.2024 22:15:29.365 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:292  Root WebApplicationContext: initialization completed in 5580 ms
+02.12.2024 22:15:29.549 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:971  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@17410f54
+02.12.2024 22:15:29.795 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper:31  HHH000204: Processing PersistenceUnitInfo [name: default]
+02.12.2024 22:15:30.026 INFO  [restartedMain] org.hibernate.Version:44  HHH000412: Hibernate ORM core version 5.6.14.Final
+02.12.2024 22:15:30.575 INFO  [restartedMain] o.h.annotations.common.Version:56  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02.12.2024 22:15:31.331 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1103  HikariPool-1 - configuration:
+02.12.2024 22:15:31.345 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  allowPoolSuspension................................false
+02.12.2024 22:15:31.346 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  autoCommit................................true
+02.12.2024 22:15:31.347 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  catalog................................none
+02.12.2024 22:15:31.347 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionInitSql................................none
+02.12.2024 22:15:31.348 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTestQuery................................none
+02.12.2024 22:15:31.351 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTimeout................................30000
+02.12.2024 22:15:31.351 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSource................................none
+02.12.2024 22:15:31.352 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceClassName................................none
+02.12.2024 22:15:31.352 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceJNDI................................none
+02.12.2024 22:15:31.355 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceProperties................................{password=<masked>}
+02.12.2024 22:15:31.356 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  driverClassName................................"com.mysql.cj.jdbc.Driver"
+02.12.2024 22:15:31.359 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  exceptionOverrideClassName................................none
+02.12.2024 22:15:31.360 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckProperties................................{}
+02.12.2024 22:15:31.361 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckRegistry................................none
+02.12.2024 22:15:31.362 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  idleTimeout................................600000
+02.12.2024 22:15:31.363 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  initializationFailTimeout................................1
+02.12.2024 22:15:31.364 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  isolateInternalQueries................................false
+02.12.2024 22:15:31.365 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  jdbcUrl................................jdbc:mysql://localhost:3303/devonly?createDatabaseIfNotExist=true
+02.12.2024 22:15:31.366 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  keepaliveTime................................0
+02.12.2024 22:15:31.367 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  leakDetectionThreshold................................0
+02.12.2024 22:15:31.369 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maxLifetime................................1800000
+02.12.2024 22:15:31.392 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maximumPoolSize................................10
+02.12.2024 22:15:31.400 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricRegistry................................none
+02.12.2024 22:15:31.406 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricsTrackerFactory................................none
+02.12.2024 22:15:31.408 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  minimumIdle................................10
+02.12.2024 22:15:31.408 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  password................................<masked>
+02.12.2024 22:15:31.410 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  poolName................................"HikariPool-1"
+02.12.2024 22:15:31.413 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  readOnly................................false
+02.12.2024 22:15:31.424 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  registerMbeans................................false
+02.12.2024 22:15:31.430 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  scheduledExecutor................................none
+02.12.2024 22:15:31.431 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  schema................................none
+02.12.2024 22:15:31.434 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  threadFactory................................internal
+02.12.2024 22:15:31.440 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  transactionIsolation................................default
+02.12.2024 22:15:31.448 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  username................................"root"
+02.12.2024 22:15:31.451 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  validationTimeout................................5000
+02.12.2024 22:15:31.460 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:110  HikariPool-1 - Starting...
+02.12.2024 22:15:33.280 DEBUG [restartedMain] com.zaxxer.hikari.pool.HikariPool:565  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a2a7265
+02.12.2024 22:15:33.283 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:123  HikariPool-1 - Start completed.
+02.12.2024 22:15:33.348 INFO  [restartedMain] org.hibernate.dialect.Dialect:175  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02.12.2024 22:15:33.396 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+02.12.2024 22:15:33.512 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@274002c3
+02.12.2024 22:15:33.728 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@667d08f8
+02.12.2024 22:15:34.121 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57d1ec88
+02.12.2024 22:15:34.259 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652f7b7
+02.12.2024 22:15:34.345 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21c8d54
+02.12.2024 22:15:34.426 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32fb861f
+02.12.2024 22:15:34.516 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56f5eeca
+02.12.2024 22:15:34.635 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35609515
+02.12.2024 22:15:34.741 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@517f18a9
+02.12.2024 22:15:34.741 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:15:35.655 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator:52  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02.12.2024 22:15:35.681 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean:437  Initialized JPA EntityManagerFactory for persistence unit 'default'
+02.12.2024 22:15:35.991 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02.12.2024 22:15:37.270 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?error']
+02.12.2024 22:15:37.295 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 22:15:37.296 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 22:15:37.296 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Or [Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]
+02.12.2024 22:15:37.297 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?logout']
+02.12.2024 22:15:37.297 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/login']
+02.12.2024 22:15:37.297 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/vendors/**']
+02.12.2024 22:15:37.297 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/css/**']
+02.12.2024 22:15:37.298 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/js/**']
+02.12.2024 22:15:37.298 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/fonts/**']
+02.12.2024 22:15:37.298 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/images/**']
+02.12.2024 22:15:37.298 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/app-assets/**']
+02.12.2024 22:15:37.298 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [authenticated] for any request
+02.12.2024 22:15:37.312 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain:55  Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d7e4617, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b2bf433, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a7fecc2, org.springframework.security.web.header.HeaderWriterFilter@159e62bd, org.springframework.security.web.authentication.logout.LogoutFilter@20633f57, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2335110e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5680ee8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b198595, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@672cfb68, org.springframework.security.web.session.SessionManagementFilter@5fd17f27, org.springframework.security.web.access.ExceptionTranslationFilter@3a8a7241, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f49bc8b]
+02.12.2024 22:15:37.795 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping:57  Adding welcome page template: index
+02.12.2024 22:15:37.926 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.PagesController:
+	{GET [/about]}: aboutPage()
+	{GET [/login]}: loginPage()
+	{GET [/users/edit/{userId}]}: usersPage(Long)
+	{GET [/users/{pageName}]}: usersPage(String)
+	{GET [/]}: homePage()
+	{GET [/users]}: usersUrl()
+	{GET [/empty]}: emptyPage()
+02.12.2024 22:15:37.947 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.t.TemplateController:
+	{PUT [/api/v1/template]}: update(TemplateEntity)
+	{GET [/api/v1/template/{id}]}: find(Long)
+	{DELETE [/api/v1/template/{id}]}: delete(Long)
+	{POST [/api/v1/template]}: create(TemplateEntity)
+	{GET [/api/v1/template/all]}: findAll()
+02.12.2024 22:15:37.953 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.u.UserController:
+	{GET [/api/v1/users]}: getAllUsers()
+	{GET [/api/v1/users/{id}]}: getUserById(Long)
+	{DELETE [/api/v1/users/{id}]}: deleteUser(Long)
+	{POST [/api/v1/users]}: createUser(User)
+02.12.2024 22:15:37.961 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+02.12.2024 22:15:38.006 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:86  'beanNameHandlerMapping' {}
+02.12.2024 22:15:38.048 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:177  'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [static/], ServletContext [/]]}
+02.12.2024 22:15:39.827 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:59  LiveReload server is running on port 35729
+02.12.2024 22:15:39.875 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Starting ProtocolHandler ["http-nio-8080"]
+02.12.2024 22:15:39.996 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:220  Tomcat started on port(s): 8080 (http) with context path ''
+02.12.2024 22:15:40.075 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:61  Started DigiworkApplication in 17.907 seconds (JVM running for 20.046)
+02.12.2024 22:16:03.446 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:16:03.456 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 22:16:06.882 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]:173  Initializing Spring DispatcherServlet 'dispatcherServlet'
+02.12.2024 22:16:06.883 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:525  Initializing Servlet 'dispatcherServlet'
+02.12.2024 22:16:06.933 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:547  Completed initialization in 49 ms
+02.12.2024 22:16:06.978 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:218  Securing GET /
+02.12.2024 22:16:06.995 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:07.007 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:07.048 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor:247  Failed to authorize filter invocation [GET /] with attributes [authenticated]
+02.12.2024 22:16:07.167 DEBUG [http-nio-8080-exec-1] o.s.s.w.s.HttpSessionRequestCache:75  Saved request http://localhost:8080/ to session
+02.12.2024 22:16:07.170 DEBUG [http-nio-8080-exec-1] o.s.s.web.DefaultRedirectStrategy:57  Redirecting to http://localhost:8080/login
+02.12.2024 22:16:07.173 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:357  Did not store empty SecurityContext
+02.12.2024 22:16:07.186 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:357  Did not store empty SecurityContext
+02.12.2024 22:16:07.186 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:07.219 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:218  Securing GET /login
+02.12.2024 22:16:07.220 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:07.222 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:07.223 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /login] with attributes [permitAll]
+02.12.2024 22:16:07.227 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:333  Secured GET /login
+02.12.2024 22:16:07.435 DEBUG [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine:325  [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+02.12.2024 22:16:08.599 DEBUG [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine:348  [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+02.12.2024 22:16:09.716 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:09.781 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:09.782 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:09.935 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/vendors.css
+02.12.2024 22:16:09.936 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:09.937 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:09.940 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/vendors.css] with attributes [permitAll]
+02.12.2024 22:16:09.942 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/vendors.css
+02.12.2024 22:16:10.074 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/core/menu/menu-types/horizontal-menu.css
+02.12.2024 22:16:10.075 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.076 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/custom.css
+02.12.2024 22:16:10.076 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.076 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.079 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/custom.css] with attributes [permitAll]
+02.12.2024 22:16:10.080 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/custom.css
+02.12.2024 22:16:10.085 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/app.css
+02.12.2024 22:16:10.086 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.088 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.090 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/app.css] with attributes [permitAll]
+02.12.2024 22:16:10.091 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/app.css
+02.12.2024 22:16:10.104 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.106 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/core/menu/menu-types/horizontal-menu.css] with attributes [permitAll]
+02.12.2024 22:16:10.106 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/core/menu/menu-types/horizontal-menu.css
+02.12.2024 22:16:10.146 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/icheck.css
+02.12.2024 22:16:10.149 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.153 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.157 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/icheck.css] with attributes [permitAll]
+02.12.2024 22:16:10.157 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/icheck.css
+02.12.2024 22:16:10.235 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.237 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.237 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.304 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/core/colors/palette-gradient.css
+02.12.2024 22:16:10.309 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.315 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.326 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/core/colors/palette-gradient.css] with attributes [permitAll]
+02.12.2024 22:16:10.331 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/core/colors/palette-gradient.css
+02.12.2024 22:16:10.399 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.448 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.449 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.466 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/pages/login-register.css
+02.12.2024 22:16:10.467 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.468 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.469 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/pages/login-register.css] with attributes [permitAll]
+02.12.2024 22:16:10.469 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/pages/login-register.css
+02.12.2024 22:16:10.472 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/style.css
+02.12.2024 22:16:10.472 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.473 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.474 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/style.css] with attributes [permitAll]
+02.12.2024 22:16:10.477 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/style.css
+02.12.2024 22:16:10.525 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.542 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.542 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.549 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.550 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.555 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.555 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.557 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.566 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.571 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.576 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.577 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.621 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.633 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.633 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.638 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.656 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.676 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/images/logo/logo-dark.png
+02.12.2024 22:16:10.675 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/js/vendors.min.js
+02.12.2024 22:16:10.677 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.678 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.683 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/images/logo/logo-dark.png] with attributes [permitAll]
+02.12.2024 22:16:10.682 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:10.684 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/images/logo/logo-dark.png
+02.12.2024 22:16:10.684 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:10.688 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/js/vendors.min.js] with attributes [permitAll]
+02.12.2024 22:16:10.690 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/js/vendors.min.js
+02.12.2024 22:16:10.701 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:10.703 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.720 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:10.720 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:11.572 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:11.650 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:11.650 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.345 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/js/ui/jquery.sticky.js
+02.12.2024 22:16:12.346 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.347 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.348 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/js/ui/jquery.sticky.js] with attributes [permitAll]
+02.12.2024 22:16:12.348 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/js/ui/jquery.sticky.js
+02.12.2024 22:16:12.362 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/js/forms/validation/jqBootstrapValidation.js
+02.12.2024 22:16:12.365 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.366 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.367 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/js/forms/validation/jqBootstrapValidation.js] with attributes [permitAll]
+02.12.2024 22:16:12.367 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/js/forms/validation/jqBootstrapValidation.js
+02.12.2024 22:16:12.368 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/js/forms/icheck/icheck.min.js
+02.12.2024 22:16:12.370 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.372 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.373 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/js/forms/icheck/icheck.min.js] with attributes [permitAll]
+02.12.2024 22:16:12.373 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/js/forms/icheck/icheck.min.js
+02.12.2024 22:16:12.386 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/js/core/app-menu.js
+02.12.2024 22:16:12.386 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.388 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/js/scripts/forms/form-login-register.js
+02.12.2024 22:16:12.391 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.391 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.393 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/js/scripts/forms/form-login-register.js] with attributes [permitAll]
+02.12.2024 22:16:12.393 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/js/scripts/forms/form-login-register.js
+02.12.2024 22:16:12.394 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.389 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/js/core/app.js
+02.12.2024 22:16:12.406 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.407 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/js/core/app-menu.js] with attributes [permitAll]
+02.12.2024 22:16:12.416 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/js/core/app-menu.js
+02.12.2024 22:16:12.418 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.422 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/js/core/app.js] with attributes [permitAll]
+02.12.2024 22:16:12.426 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/js/core/app.js
+02.12.2024 22:16:12.475 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.477 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.478 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.487 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/bootstrap.css
+02.12.2024 22:16:12.488 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.490 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.491 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/bootstrap.css] with attributes [permitAll]
+02.12.2024 22:16:12.491 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/bootstrap.css
+02.12.2024 22:16:12.566 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.570 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.571 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.572 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/feather/style.min.css
+02.12.2024 22:16:12.572 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.573 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.574 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/feather/style.min.css] with attributes [permitAll]
+02.12.2024 22:16:12.574 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/feather/style.min.css
+02.12.2024 22:16:12.585 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.600 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.603 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.608 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/font-awesome/css/font-awesome.min.css
+02.12.2024 22:16:12.609 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.609 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.610 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/font-awesome/css/font-awesome.min.css] with attributes [permitAll]
+02.12.2024 22:16:12.610 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.610 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/font-awesome/css/font-awesome.min.css
+02.12.2024 22:16:12.616 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.617 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.618 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/simple-line-icons/style.min.css
+02.12.2024 22:16:12.619 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.621 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.622 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/simple-line-icons/style.min.css] with attributes [permitAll]
+02.12.2024 22:16:12.622 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/simple-line-icons/style.min.css
+02.12.2024 22:16:12.627 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.627 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.645 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.647 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.653 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/extensions/pace.css
+02.12.2024 22:16:12.653 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.653 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.655 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/extensions/pace.css] with attributes [permitAll]
+02.12.2024 22:16:12.656 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/extensions/pace.css
+02.12.2024 22:16:12.653 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.663 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.673 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/flag-icon-css/css/flag-icon.min.css
+02.12.2024 22:16:12.673 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.690 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.674 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.690 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.691 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.691 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.692 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.692 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.691 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/flag-icon-css/css/flag-icon.min.css] with attributes [permitAll]
+02.12.2024 22:16:12.694 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/flag-icon-css/css/flag-icon.min.css
+02.12.2024 22:16:12.699 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/bootstrap-extended.css
+02.12.2024 22:16:12.701 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.702 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.702 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/colors.css
+02.12.2024 22:16:12.702 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.702 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/bootstrap-extended.css] with attributes [permitAll]
+02.12.2024 22:16:12.702 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.703 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/bootstrap-extended.css
+02.12.2024 22:16:12.704 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/colors.css] with attributes [permitAll]
+02.12.2024 22:16:12.705 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/colors.css
+02.12.2024 22:16:12.690 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.711 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.712 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.718 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/css/components.css
+02.12.2024 22:16:12.719 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.720 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.720 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/css/components.css] with attributes [permitAll]
+02.12.2024 22:16:12.721 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/css/components.css
+02.12.2024 22:16:12.754 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.775 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.776 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.776 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.784 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/minimal/_all.css
+02.12.2024 22:16:12.785 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.785 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.792 DEBUG [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/minimal/_all.css] with attributes [permitAll]
+02.12.2024 22:16:12.792 DEBUG [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/minimal/_all.css
+02.12.2024 22:16:12.792 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.801 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.802 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/square/_all.css
+02.12.2024 22:16:12.803 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.803 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.804 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/square/_all.css] with attributes [permitAll]
+02.12.2024 22:16:12.804 DEBUG [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/square/_all.css
+02.12.2024 22:16:12.805 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.810 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.811 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.815 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/flat/_all.css
+02.12.2024 22:16:12.815 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.815 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.816 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.817 DEBUG [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/flat/_all.css] with attributes [permitAll]
+02.12.2024 22:16:12.817 DEBUG [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/flat/_all.css
+02.12.2024 22:16:12.850 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.850 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.852 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/line/_all.css
+02.12.2024 22:16:12.852 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.853 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.853 DEBUG [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/line/_all.css] with attributes [permitAll]
+02.12.2024 22:16:12.854 DEBUG [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/line/_all.css
+02.12.2024 22:16:12.870 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.877 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.884 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.887 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.891 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.892 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.895 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/futurico/futurico.css
+02.12.2024 22:16:12.895 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.895 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.898 DEBUG [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/futurico/futurico.css] with attributes [permitAll]
+02.12.2024 22:16:12.898 DEBUG [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/futurico/futurico.css
+02.12.2024 22:16:12.901 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/polaris/polaris.css
+02.12.2024 22:16:12.902 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:12.902 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:12.908 DEBUG [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/polaris/polaris.css] with attributes [permitAll]
+02.12.2024 22:16:12.908 DEBUG [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/polaris/polaris.css
+02.12.2024 22:16:12.916 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.920 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.921 DEBUG [http-nio-8080-exec-5] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.921 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.925 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.925 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.925 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.926 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.932 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.932 DEBUG [http-nio-8080-exec-10] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.933 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.933 DEBUG [http-nio-8080-exec-1] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.937 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.938 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.939 DEBUG [http-nio-8080-exec-2] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:12.969 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.973 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:12.973 DEBUG [http-nio-8080-exec-7] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:13.153 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+02.12.2024 22:16:13.153 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:13.154 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:13.155 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/feather/fonts/feather.ttf?9xfrq8] with attributes [permitAll]
+02.12.2024 22:16:13.155 DEBUG [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+02.12.2024 22:16:13.162 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+02.12.2024 22:16:13.162 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:13.164 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:13.165 DEBUG [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0] with attributes [permitAll]
+02.12.2024 22:16:13.166 DEBUG [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+02.12.2024 22:16:13.215 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/vendors/css/forms/icheck/square/blue.png
+02.12.2024 22:16:13.216 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:13.216 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:13.217 DEBUG [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/vendors/css/forms/icheck/square/blue.png] with attributes [permitAll]
+02.12.2024 22:16:13.217 DEBUG [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/vendors/css/forms/icheck/square/blue.png
+02.12.2024 22:16:13.237 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.246 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.249 DEBUG [http-nio-8080-exec-9] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:13.257 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.260 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.261 DEBUG [http-nio-8080-exec-8] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:13.294 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.305 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.305 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:13.901 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /app-assets/images/ico/favicon.ico
+02.12.2024 22:16:13.901 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:13.902 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:13.903 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor:210  Authorized filter invocation [GET /app-assets/images/ico/favicon.ico] with attributes [permitAll]
+02.12.2024 22:16:13.903 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /app-assets/images/ico/favicon.ico
+02.12.2024 22:16:13.919 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.921 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:13.922 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:13.938 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:218  Securing GET /error
+02.12.2024 22:16:13.939 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:104  Set SecurityContextHolder to empty SecurityContext
+02.12.2024 22:16:13.940 DEBUG [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter:100  Set SecurityContextHolder to anonymous SecurityContext
+02.12.2024 22:16:13.940 DEBUG [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy:333  Secured GET /error
+02.12.2024 22:16:14.446 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:14.450 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.HttpSessionSecurityContextRepository:360  Did not store anonymous SecurityContext
+02.12.2024 22:16:14.450 DEBUG [http-nio-8080-exec-6] o.s.s.w.c.SecurityContextPersistenceFilter:120  Cleared SecurityContextHolder to complete request
+02.12.2024 22:16:33.467 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 22:16:33.467 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:51:20.796 DEBUG [background-preinit] org.jboss.logging:152  Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+02.12.2024 23:51:20.829 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:55  Starting DigiworkApplication using Java 21.0.4 on DESKTOP-KT7OEDS with PID 10840 (F:\Qualito\qualito-spring-auth-template\bin\main started by user in F:\Qualito\qualito-spring-auth-template)
+02.12.2024 23:51:20.844 INFO  [background-preinit] o.h.validator.internal.util.Version:21  HV000001: Hibernate Validator 6.2.5.Final
+02.12.2024 23:51:20.855 DEBUG [restartedMain] c.q.digiwork.DigiworkApplication:56  Running with Spring Boot v2.7.7, Spring v5.3.24
+02.12.2024 23:51:20.865 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:631  No active profile set, falling back to 1 default profile: "default"
+02.12.2024 23:51:22.087 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02.12.2024 23:51:22.088 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02.12.2024 23:51:23.670 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 23:51:23.674 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+02.12.2024 23:51:23.745 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.template.TemplateCrudRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 23:51:23.749 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport:349  Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.qualito.digiwork.service.user.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+02.12.2024 23:51:23.759 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 71 ms. Found 0 JDBC repository interfaces.
+02.12.2024 23:51:23.791 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:262  Multiple Spring Data modules found, entering strict repository configuration mode
+02.12.2024 23:51:23.797 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:132  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02.12.2024 23:51:23.872 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:201  Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+02.12.2024 23:51:25.246 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:108  Tomcat initialized with port(s): 8080 (http)
+02.12.2024 23:51:25.271 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Initializing ProtocolHandler ["http-nio-8080"]
+02.12.2024 23:51:25.272 INFO  [restartedMain] o.a.catalina.core.StandardService:173  Starting service [Tomcat]
+02.12.2024 23:51:25.274 INFO  [restartedMain] o.a.catalina.core.StandardEngine:173  Starting Servlet engine: [Apache Tomcat/9.0.70]
+02.12.2024 23:51:25.436 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]:173  Initializing Spring embedded WebApplicationContext
+02.12.2024 23:51:25.437 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:292  Root WebApplicationContext: initialization completed in 3346 ms
+02.12.2024 23:51:25.557 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:971  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@17410f54
+02.12.2024 23:51:25.710 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper:31  HHH000204: Processing PersistenceUnitInfo [name: default]
+02.12.2024 23:51:25.860 INFO  [restartedMain] org.hibernate.Version:44  HHH000412: Hibernate ORM core version 5.6.14.Final
+02.12.2024 23:51:26.433 INFO  [restartedMain] o.h.annotations.common.Version:56  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02.12.2024 23:51:26.641 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1103  HikariPool-1 - configuration:
+02.12.2024 23:51:26.644 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  allowPoolSuspension................................false
+02.12.2024 23:51:26.645 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  autoCommit................................true
+02.12.2024 23:51:26.645 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  catalog................................none
+02.12.2024 23:51:26.645 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionInitSql................................none
+02.12.2024 23:51:26.646 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTestQuery................................none
+02.12.2024 23:51:26.648 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  connectionTimeout................................30000
+02.12.2024 23:51:26.649 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSource................................none
+02.12.2024 23:51:26.650 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceClassName................................none
+02.12.2024 23:51:26.650 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceJNDI................................none
+02.12.2024 23:51:26.651 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  dataSourceProperties................................{password=<masked>}
+02.12.2024 23:51:26.651 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  driverClassName................................"com.mysql.cj.jdbc.Driver"
+02.12.2024 23:51:26.653 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  exceptionOverrideClassName................................none
+02.12.2024 23:51:26.653 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckProperties................................{}
+02.12.2024 23:51:26.653 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  healthCheckRegistry................................none
+02.12.2024 23:51:26.654 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  idleTimeout................................600000
+02.12.2024 23:51:26.654 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  initializationFailTimeout................................1
+02.12.2024 23:51:26.654 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  isolateInternalQueries................................false
+02.12.2024 23:51:26.655 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  jdbcUrl................................jdbc:mysql://localhost:3303/devonly?createDatabaseIfNotExist=true
+02.12.2024 23:51:26.657 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  keepaliveTime................................0
+02.12.2024 23:51:26.658 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  leakDetectionThreshold................................0
+02.12.2024 23:51:26.658 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maxLifetime................................1800000
+02.12.2024 23:51:26.658 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  maximumPoolSize................................10
+02.12.2024 23:51:26.659 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricRegistry................................none
+02.12.2024 23:51:26.659 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  metricsTrackerFactory................................none
+02.12.2024 23:51:26.659 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  minimumIdle................................10
+02.12.2024 23:51:26.660 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  password................................<masked>
+02.12.2024 23:51:26.660 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  poolName................................"HikariPool-1"
+02.12.2024 23:51:26.660 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  readOnly................................false
+02.12.2024 23:51:26.661 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  registerMbeans................................false
+02.12.2024 23:51:26.661 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  scheduledExecutor................................none
+02.12.2024 23:51:26.661 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  schema................................none
+02.12.2024 23:51:26.662 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  threadFactory................................internal
+02.12.2024 23:51:26.662 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  transactionIsolation................................default
+02.12.2024 23:51:26.662 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  username................................"root"
+02.12.2024 23:51:26.662 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:1135  validationTimeout................................5000
+02.12.2024 23:51:26.664 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:110  HikariPool-1 - Starting...
+02.12.2024 23:51:27.938 DEBUG [restartedMain] com.zaxxer.hikari.pool.HikariPool:565  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b77009e
+02.12.2024 23:51:27.941 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:123  HikariPool-1 - Start completed.
+02.12.2024 23:51:27.994 INFO  [restartedMain] org.hibernate.dialect.Dialect:175  HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02.12.2024 23:51:28.046 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02.12.2024 23:51:28.130 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@721dd5eb
+02.12.2024 23:51:28.196 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3320dfd0
+02.12.2024 23:51:28.252 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d92b38
+02.12.2024 23:51:28.323 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@530f209f
+02.12.2024 23:51:28.385 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57411f29
+02.12.2024 23:51:28.454 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47316e1d
+02.12.2024 23:51:28.507 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6353a302
+02.12.2024 23:51:28.562 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d7a2815
+02.12.2024 23:51:28.632 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:729  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d3ab30b
+02.12.2024 23:51:28.633 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:51:29.555 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator:52  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02.12.2024 23:51:29.573 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean:437  Initialized JPA EntityManagerFactory for persistence unit 'default'
+02.12.2024 23:51:29.673 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02.12.2024 23:51:30.378 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?error']
+02.12.2024 23:51:30.408 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 23:51:30.409 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login']
+02.12.2024 23:51:30.409 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Or [Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]
+02.12.2024 23:51:30.410 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for ExactUrl [processUrl='/login?logout']
+02.12.2024 23:51:30.410 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/login']
+02.12.2024 23:51:30.410 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/vendors/**']
+02.12.2024 23:51:30.411 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/css/**']
+02.12.2024 23:51:30.411 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/js/**']
+02.12.2024 23:51:30.411 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/fonts/**']
+02.12.2024 23:51:30.411 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/images/**']
+02.12.2024 23:51:30.412 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [permitAll] for Ant [pattern='/app-assets/**']
+02.12.2024 23:51:30.412 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource:72  Adding web access control expression [authenticated] for any request
+02.12.2024 23:51:30.424 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain:55  Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7572d604, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@371d81c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@d0f1e38, org.springframework.security.web.header.HeaderWriterFilter@35d9e0a4, org.springframework.security.web.authentication.logout.LogoutFilter@5193795d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8a422ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36200bd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e839ced, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2335110e, org.springframework.security.web.session.SessionManagementFilter@47abf450, org.springframework.security.web.access.ExceptionTranslationFilter@7fb8b204, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b6563ed]
+02.12.2024 23:51:30.799 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping:57  Adding welcome page template: index
+02.12.2024 23:51:30.863 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.PagesController:
+	{GET [/users/edit/{userId}]}: usersPage(Long)
+	{GET [/users/{pageName}]}: usersPage(String)
+	{GET [/login]}: loginPage()
+	{GET [/empty]}: emptyPage()
+	{GET [/users]}: usersUrl()
+	{GET [/]}: homePage()
+	{GET [/about]}: aboutPage()
+02.12.2024 23:51:30.870 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.t.TemplateController:
+	{PUT [/api/v1/template]}: update(TemplateEntity)
+	{GET [/api/v1/template/{id}]}: find(Long)
+	{DELETE [/api/v1/template/{id}]}: delete(Long)
+	{POST [/api/v1/template]}: create(TemplateEntity)
+	{GET [/api/v1/template/all]}: findAll()
+02.12.2024 23:51:30.874 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	c.q.d.s.u.UserController:
+	{DELETE [/api/v1/users/{id}]}: deleteUser(Long)
+	{POST [/api/v1/users]}: createUser(User)
+	{GET [/api/v1/users]}: getAllUsers()
+	{GET [/api/v1/users/{id}]}: getUserById(Long)
+02.12.2024 23:51:30.879 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:295  
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+02.12.2024 23:51:30.895 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:86  'beanNameHandlerMapping' {}
+02.12.2024 23:51:30.926 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings:177  'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [static/], ServletContext [/]]}
+02.12.2024 23:51:32.473 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:59  LiveReload server is running on port 35729
+02.12.2024 23:51:32.503 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:173  Starting ProtocolHandler ["http-nio-8080"]
+02.12.2024 23:51:32.554 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer:220  Tomcat started on port(s): 8080 (http) with context path ''
+02.12.2024 23:51:32.591 INFO  [restartedMain] c.q.digiwork.DigiworkApplication:61  Started DigiworkApplication in 12.962 seconds (JVM running for 14.676)
+02.12.2024 23:51:58.057 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:51:58.062 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:52:28.074 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:52:28.074 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:52:58.089 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:52:58.092 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:53:28.105 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:53:28.105 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:53:58.110 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:53:58.110 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:54:28.112 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:54:28.112 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:54:58.123 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:54:58.124 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:55:28.127 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:55:28.127 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:55:58.130 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:55:58.131 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:56:28.144 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:56:28.150 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:56:58.164 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:56:58.165 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:57:28.172 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:57:28.173 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:57:58.184 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:57:58.184 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:58:28.186 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:58:28.187 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:58:58.191 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:58:58.191 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:59:28.203 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:59:28.204 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+02.12.2024 23:59:58.217 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:421  HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02.12.2024 23:59:58.217 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:518  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
